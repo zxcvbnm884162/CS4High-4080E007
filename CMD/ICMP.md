@@ -64,7 +64,9 @@ IEEE 802.1：高層區域網路協定（Bridging (networking) and Network Manage
 IEEE 802.2：邏輯鏈路控制（Logical link control）
 
 區域網路用的協定:
-[超級重要]IEEE 802.3：乙太網路（Ethernet）
+
+[超級重要]
+IEEE 802.3：乙太網路（Ethernet）
 IEEE 802.4：權杖匯流排（Token bus）
 IEEE 802.5：權杖環（Token-Ring）
 
@@ -79,8 +81,8 @@ IEEE 802.12：需求優先級（Demand priority）
 IEEE 802.13：（未使用）
 IEEE 802.14：電纜數據機（Cable modems）
 IEEE 802.15：無線個人區域網路（Wireless PAN）
-   IEEE 802.15.1：無線個人區域網路絡（WPAN, Wireless Personal Area Network）
-   IEEE 802.15.4：低速無線個人區域網路絡（LR-WPAN, Low Rate Wireless Personal Area Network）
+IEEE 802.15.1：無線個人區域網路絡（WPAN, Wireless Personal Area Network）
+IEEE 802.15.4：低速無線個人區域網路絡（LR-WPAN, Low Rate Wireless Personal Area Network）
 IEEE 802.16：寬頻無線接入（Broadband Wireless Access）
 IEEE 802.17：彈性封包環傳輸技術（Resilient packet ring）
 IEEE 802.18：無線電管制技術（Radio Regulatory TAG）
@@ -201,11 +203,10 @@ tracert www.google.com.tw
  30     *        *        *     要求等候逾時。
  
 追蹤完成。
+
 ```
 ```
 作業:tracert www.ksu.edu.tw
-
-tracert www.ksu.edu.tw
 
 在上限 30 個躍點上
 追蹤 www.ksu.edu.tw [120.114.100.65] 的路由: Tracing route to 11.1.0.1 over a maximum of 30 hops
