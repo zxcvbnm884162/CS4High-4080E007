@@ -186,6 +186,11 @@ arp -a
   224.0.0.252           01-00-5e-00-00-fc     靜態
   239.255.255.250       01-00-5e-7f-ff-fa     靜態
 ```
+
+### IP
+```
+
+```
 ### ICMP
 ```
 Internet Control Message Protocol
