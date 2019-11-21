@@ -290,7 +290,6 @@ tracert www.google.com.tw
  30     *        *        *     要求等候逾時。
  
 追蹤完成。
-
 ```
 ```
 作業:tracert www.ksu.edu.tw
@@ -303,6 +302,13 @@ tracert www.google.com.tw
   3    <1 ms    <1 ms    <1 ms  www.ksu.edu.tw [120.114.100.65]
 
 追蹤完成。
+```
+# Transport層協定:TCP(可靠的reliable) vs UDP (不可靠的unreliable)
+```
+何謂(可靠的reliable) vs (不可靠的unreliable)?
+都(不可靠的unreliable)了,為何要用??
+如何達到(可靠的reliable)?<----封包格式的設計
+```
 ```
 ```
 ### TCP vs UDP 
