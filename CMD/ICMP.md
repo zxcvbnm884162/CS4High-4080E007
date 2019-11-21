@@ -321,8 +321,6 @@ tracert www.google.com.tw
 都(不可靠的unreliable)了,為何要用??
 如何達到(可靠的reliable)?<----封包格式的設計
 ```
-```
-```
 ### TCP vs UDP 
 ```
 TCP vs UDP Comparison
@@ -344,6 +342,3 @@ https://www.youtube.com/watch?v=5cPIukqXe5w
 FTP (File Transfer Protocol), SFTP, TFTP Explained.
 https://www.youtube.com/watch?v=tOj8MSEIbfA
 ```
-
-```
-
