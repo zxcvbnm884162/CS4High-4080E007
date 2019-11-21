@@ -110,6 +110,38 @@ MAC Address
 位址解析協定（Address Resolution Protocol, ARP）來查問欲傳送之目的主機的MAC位址==已知的 IP 位址查問其相對應的網路實體位
 反向位址解析協定（Reverse Address Resolution Protocol, RARP）。由已知的網路實體位址查詢其相對應的 IP 位址
 ```
+arp /?
+
+顯示和修改位址解析通訊協定 (ARP) 使用的 IP 對實際位址{MAC address}轉譯表格。
+
+ARP -s inet_addr eth_addr [if_addr]
+ARP -d inet_addr [if_addr]
+ARP -a [inet_addr] [-N if_addr] [-v]
+
+  -a            質詢目前的通訊協定資料來顯示目前的
+                ARP 項目。如果指定 inet_addr，只會顯示指定電腦的
+                IP 及實體位址。如果有多個網路介面使用 ARP，便 會顯示每個 ARP
+                表格的項目。
+  -g            與 -a 相同。
+  -v            以詳細資訊模式顯示目前的 ARP 項目。將會顯示
+                所有無效項目和回路介面上的項目。
+  inet_addr     指定網際網路位址。
+  -N if_addr    顯示 if_addr 指定之網路介面的 ARP
+                項目。
+  -d            刪除 inet_addr 指定的主機。使用萬用字元 * 取代 inet_addr
+                可刪除所有主機。
+  -s            新增主機並將網際網路位址 inet_addr 與實體位址
+                eth_addr 相關聯。實體位址是
+                6 個以連字號分隔的十六進位位元組。該項目
+                永久不變。
+  eth_addr      指定實體位址。
+  if_addr       如果存在，這會指定介面的網際網路位址，
+                應修改此介面的位址轉譯表格。
+                如果不存在，將會使用第一個適用的介面。
+範例:
+  > arp -s 157.55.85.212   00-aa-00-62-c6-09  .... 新增靜態項 目。
+  > arp -a                                    .... 顯示 ARP 表格。
+```
 ```
 arp -a
 
