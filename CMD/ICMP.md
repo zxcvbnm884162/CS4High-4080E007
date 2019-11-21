@@ -230,13 +230,11 @@ https://www.youtube.com/watch?v=uwoD5YsGACg
 SSL, TLS, HTTP, HTTPS Explained
 https://www.youtube.com/watch?v=hExRDVZHhig
 ```
-
 ###  Proxy Server
 ```
 What is a Proxy Server?
 https://www.youtube.com/watch?v=5cPIukqXe5w
 ```
-
 ### FTP (File Transfer Protocol), SFTP, TFTP Explained.
 ```
 FTP (File Transfer Protocol), SFTP, TFTP Explained.
