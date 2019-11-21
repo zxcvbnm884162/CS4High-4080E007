@@ -202,9 +202,8 @@ tracert www.google.com.tw
  
 追蹤完成。
 ```
-### 作業
-
-網址:tracert www.ksu.edu.tw
+```
+作業:tracert www.ksu.edu.tw
 
 tracert www.ksu.edu.tw
 
