@@ -110,6 +110,8 @@ MAC Address
 位址解析協定（Address Resolution Protocol, ARP）來查問欲傳送之目的主機的MAC位址==已知的 IP 位址查問其相對應的網路實體位
 反向位址解析協定（Reverse Address Resolution Protocol, RARP）。由已知的網路實體位址查詢其相對應的 IP 位址
 ```
+
+```
 arp /?
 
 顯示和修改位址解析通訊協定 (ARP) 使用的 IP 對實際位址{MAC address}轉譯表格。
@@ -142,6 +144,7 @@ ARP -a [inet_addr] [-N if_addr] [-v]
   > arp -s 157.55.85.212   00-aa-00-62-c6-09  .... 新增靜態項 目。
   > arp -a                                    .... 顯示 ARP 表格。
 ```
+
 ```
 arp -a
 
